@@ -1,4 +1,4 @@
-# code your #position_taken? method here!
+# determine if index is occupied
 def position_taken?(board, index)
     if board[index]==""|| board[index]==" "
         return false
